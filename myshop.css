@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+header{
+    width: 90%;
+    height: 20vh;
+    background-size: cover;
+ }
+ nav{
+    width: 110%;
+    height: 160px;
+    background: #fff;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .logo{
+    margin-right: 60px;
+ }
+ 
+ ul li{
+    display: inline-block;
+    position: relative;
+    margin-right: -1%;
+    font-size:15px;  
+    
+ }
+ ul li a{
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+    color: black;
+    margin: 0;
+    
+    
+ }
+ ul li a:hover{
+ color: #946d06;
+ text-decoration: underline;
+ transition: all 0.3s;
+ }
+ ul li ul.dropdown li{
+    display: block;
+    font-weight: 30px;
+ }
+ ul li ul.dropdown li{
+    font-size: 13px;
+  
+ }
+ ul li ul.dropdown{
+    width: 100%;
+    background-color:#946d06;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    font-size: 50px;
+    font-weight:30px;;
+ }
+ ul a:hover{
+    color:#946d06;
+    text-decoration: underline;
+ }
+  
+ ul li:hover ul.dropdown{
+ display: block;
+ background-color: rgb(236, 232, 232);
+ }
+ .lat ul  a{
+     color: black;
+     text-decoration: none;
+     margin-left: 19px;
+    
+ }
+ .lat ul  a:hover{
+    color:#946d06;
+    text-decoration:underline ;
+ }
+ .btn {
+    font-size: 5px;
+    background:white;
+    color:#946d06;
+    border-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    border-color:#946d06;
+    width: 150px;
+    height: 50px;
+  
+ }
+ .btn:hover{
+    color:white;
+   background-color:#946d06;
+   transition: 0.3s;
+ }
+
+ .active a{
+    text-decoration: none;
+    color: black;
+    padding:15px;
+    display: inline-block;
+    transition: all 0.5s ease;
+
+ }
+ .active a ul.dropdown li{
+    display: block;
+ }
+ .active a ul.dropdown {
+    width: 100%;
+    background: wheat;
+    position: absolute;
+    z-index: 999;
+    display: none;
+
+ }
+ .btn{
+    padding: 12px 16px;
+    font-size: 20px;
+    color:#946d06;
+    border-color: #946d06;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 12px;
+
+ }
+ .btn:hover{
+    background: #946d06;
+   color: #fff;
+   transition: 0.3s;
+}
+.st{
+    min-width: 100%;
+    max-width: 100%;
+    opacity: 1;
+    height: 450px;
+  
+}
+.top{
+   margin-left: 600px;
+   font-size: 12px;
+   font-family:Arial, Helvetica, sans-serif;
+
+}
+
+ .box-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 2rem 0;
+}
+ .box-container .box{
+   height: 14rem;
+   width: 14rem;
+   border-radius: 1rem;
+   margin: 0.5rem;
+   overflow: hidden;
+   cursor: pointer;
+}
+ .box-container .box img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+ .box-container .box:hover img{
+   transform: scale(1.2);
+}
+.box-container1{
+   display: flex;
+   
+   margin-left: 50px;
+   flex-wrap: wrap;
+   padding: 2rem 0;
+}
+.box-container1 .box1{
+   height: 28rem;
+   width: 23rem;
+   border-radius: 1rem;
+   margin: 0.5rem;
+   overflow: hidden;
+   cursor: pointer;
+}
+ .box-container1 .box1 img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.box-container1 .box2{
+   height: 28rem;
+   width: 12rem;
+   border-radius: 1rem;
+   margin: 0.3rem;
+   overflow: hidden;
+   cursor: pointer;
+}
+.box-container1 .box2 img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.log{
+   margin-left: 550px;
+   margin-top: -10px;
+
+}
+.log a{
+      display: inline-block;
+      height: 45px;
+      width: 45px;
+      background-color:orangered;
+      margin:0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color:#ffffff;
+      transition: all 0.5s ease;
+  }
+   .log a:hover{
+      color: black;
+   }
+.log1{
+   margin-left: 560px;
+}
+.lo{
+   background-color: #dcd9d9;
+   margin-bottom: -10px;
+   padding: 37px 0 37px;
+
+}
+
